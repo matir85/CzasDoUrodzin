@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: absolute;
+    width: 100vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+}
+
+.name {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.timer div {
+    margin: 0 20px;
+}
+
+@media(max-width: 420px) {
+    .name {
+        margin: 20px 0;
+        font-size: 1em;
+    }
+
+    .timer {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    .timer div {
+        margin: 0 10px;
+    }
+}
