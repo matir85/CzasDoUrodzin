@@ -1,7 +1,7 @@
-const birthdayJustyna = new Date(2020, 06, 18).getTime();
-const birthdayMateusz = new Date(2020, 07, 11).getTime();
-const birthdayNatan = new Date(2020, 10, 14).getTime();
-const birthdayIga = new Date(2020, 12, 01).getTime();
+const birthdayJustyna = new Date('2020/06/18').getTime();
+const birthdayMateusz = new Date('2020, 07, 11').getTime();
+const birthdayNatan = new Date('2020/10/14').getTime();
+const birthdayIga = new Date('2020/12/01').getTime();
 
 const runTime = () => {
     // Pobranie aktualnego czasu
